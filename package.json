@@ -1,0 +1,24 @@
+{
+  "name": "strmat",
+  "version": "1.0.0",
+  "description": "String formatter like python in Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshadkazmi42/strmat.git"
+  },
+  "keywords": [
+    "string",
+    "formatter",
+    "python-string-fromatter"
+  ],
+  "author": "Arshad Kazmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arshadkazmi42/strmat/issues"
+  },
+  "homepage": "https://github.com/arshadkazmi42/strmat#readme"
+}
