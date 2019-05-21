@@ -4,8 +4,11 @@
   "description": "String formatter like python in Nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --ignore-path .gitignore .",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "node_modules/mocha/bin/mocha tests/**"
   },
+  "files": ["index.js"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arshadkazmi42/strmat.git"
@@ -15,6 +18,12 @@
     "formatter",
     "python-string-fromatter"
   ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "eslint": "^5.11.1",
+    "eslint-config-strongloop": "^2.1.0"
+  },
   "author": "Arshad Kazmi",
   "license": "MIT",
   "bugs": {
