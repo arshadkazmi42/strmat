@@ -11,8 +11,8 @@ const format = (string, values) => {
   }
 
   // Replace placeholder with values from values array
-  for (let i = 0; i < values.length; i++) {
-    string = string.replace(`{${i}}`, values[i]);
+  for (let key in values) {
+    string = string.replace(`{${key}}`, values[key]);
   }
 
   return string;
