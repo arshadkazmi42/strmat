@@ -17,7 +17,7 @@ describe('Fromat string with dynamic values', () => {
     expect(formattedString).to.equal(string);
   });
 
-  it('should generated formatted string with values', () => {
+  it('should return undefined value', () => {
     const string = undefined;
     const values = ['format'];
     const formattedString = Strmat.format(string, values);
