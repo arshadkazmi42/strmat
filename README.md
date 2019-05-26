@@ -23,7 +23,7 @@ const Strmat = require('strmat');
 
 const string = 'This will {0} using dynamic {1}';
 const values = ['format', 'queries'];
-const formattedString = Strmat.format(string);
+const formattedString = Strmat.format(string, values);
 
 // Output:
 // This will format using dyamic queries
@@ -34,7 +34,7 @@ const values = {
   'firstKey': 'format',
   'secondKey': 'queries'
 };
-const formattedString = Strmat.format(string);
+const formattedString = Strmat.format(string, values);
 
 // Output:
 // This will format using dyamic queries
@@ -42,7 +42,7 @@ const formattedString = Strmat.format(string);
 
 const string = 'This will not use dynamic values';
 const values = {};
-const formattedString = Strmat.format(string);
+const formattedString = Strmat.format(string, values);
 
 // Output
 // This will not use dynamic values
@@ -50,7 +50,7 @@ const formattedString = Strmat.format(string);
 
 const string = 'This will not use dynamic values';
 const values = [];
-const formattedString = Strmat.format(string);
+const formattedString = Strmat.format(string, values);
 
 // Output
 // This will not use dynamic values
@@ -58,7 +58,7 @@ const formattedString = Strmat.format(string);
 
 const string = undefined;
 const values = ['format'];
-const formattedString = Strmat.format(string);
+const formattedString = Strmat.format(string, values);
 
 // Output
 // undefined
