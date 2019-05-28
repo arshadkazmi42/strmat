@@ -1,6 +1,7 @@
 # strmat
 
 [![Build Status](https://api.travis-ci.com/arshadkazmi42/strmat.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/strmat)
+[![LICENSE](https://img.shields.io/npm/l/strmat.svg)](https://github.com/arshadkazmi42/strmat/LICENSE)
 
 Node plugin for string formatting with dynamic values like python
 
