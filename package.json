@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/arshadkazmi42/strmat#readme",
   "dependencies": {
+    "strmat": "^1.0.0",
     "yarn": "^1.16.0"
   }
 }
