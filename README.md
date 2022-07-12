@@ -5,7 +5,6 @@
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/strmat.svg)](https://github.com/arshadkazmi42/strmat)
 [![NPM Downloads](https://img.shields.io/npm/dt/strmat.svg)](https://www.npmjs.com/package/strmat)
 [![NPM Version](https://img.shields.io/npm/v/strmat.svg)](https://www.npmjs.com/package/strmat)
-[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/strmat.svg)](https://github.com/arshadkazmi42/strmat/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/strmat.svg)](https://github.com/arshadkazmi42/strmat/commits/master)
 
 Node plugin for string formatting with dynamic values like python
