@@ -1,10 +1,10 @@
 # strmat
 
-[![Build Status](https://api.travis-ci.com/arshadkazmi42/strmat.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/strmat)
-[![LICENSE](https://img.shields.io/npm/l/strmat.svg)](https://github.com/arshadkazmi42/strmat/LICENSE)
-[![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/strmat.svg)](https://github.com/arshadkazmi42/strmat)
-[![NPM Downloads](https://img.shields.io/npm/dt/strmat.svg)](https://www.npmjs.com/package/strmat)
+[![Build](https://github.com/arshadkazmi42/strmat/actions/workflows/nodejs.yml/badge.svg)](https://github.com/arshadkazmi42/strmat/actions/workflows/nodejs.yml)
 [![NPM Version](https://img.shields.io/npm/v/strmat.svg)](https://www.npmjs.com/package/strmat)
+[![NPM Downloads](https://img.shields.io/npm/dt/strmat.svg)](https://www.npmjs.com/package/strmat)
+[![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/strmat.svg)](https://github.com/arshadkazmi42/strmat)
+[![LICENSE](https://img.shields.io/npm/l/strmat.svg)](https://github.com/arshadkazmi42/strmat/blob/master/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/strmat.svg)](https://github.com/arshadkazmi42/strmat/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/strmat.svg)](https://github.com/arshadkazmi42/strmat/commits/master)
 
