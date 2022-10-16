@@ -23,6 +23,13 @@ describe('Fromat string with dynamic values array', () => {
     const formattedString = Strmat.format(string, values);
     expect(formattedString).to.equal(undefined);
   });
+
+  it('should generated formatted string for all matching with values', () => {
+    const string = 'This will {0} using dynamic {0}';
+    const values = ['format'];
+    const replacedString = Strmat.format(string, values);
+    expect(replacedString).to.equal('This will format using dynamic format');
+  });
 });
 
 describe('Fromat string with dynamic values object', () => {
@@ -48,5 +55,12 @@ describe('Fromat string with dynamic values object', () => {
     const values = {'key': 'format'};
     const formattedString = Strmat.format(string, values);
     expect(formattedString).to.equal(undefined);
+  });
+
+  it('should generated formatted string for all matching with values', () => {
+    const string = 'This will {key} using dynamic {key}';
+    const values = {'key': 'format'};
+    const replacedString = Strmat.format(string, values);
+    expect(replacedString).to.equal('This will format using dynamic format');
   });
 });
