@@ -12,7 +12,7 @@ const format = (string, values) => {
 
   // Replace placeholder with values from values array
   for (let key in values) {
-    string = string.replace(`{${key}}`, values[key]);
+    string = string.replaceAll(`{${key}}`, values[key]);
   }
 
   return string;
